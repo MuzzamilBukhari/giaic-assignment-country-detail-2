@@ -1,6 +1,5 @@
 import React from "react";
 import countryData from "@/countries";
-import Link from "next/link";
 import CountryCard from "@/components/CountryCard";
 
 type Country = keyof typeof countryData;
